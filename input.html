@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Input Form</title>
+  </head>
+  <body class="p-3 mb-2 bg-primary-subtle text-emphasis-primary">
+    <h1 class = "text-bg-info p-3" style="text-align: center;">Book Information</h1>
+    <div class="mb-3 row m p-3 mb-2 bg-primary-subtle text-emphasis-primary" style="width: 50%; text-align: center; margin:auto; margin-top: auto;">
+        <form action="booklist.php" method="post">
+            <input class="form-control" type="text", name = "title" placeholder="tilte" required><br>
+            <input class="form-control" type="text" name="author" placeholder="name" required><br>
+            <input class="form-control" type="text" name="available" placeholder="availability" required><br>
+            <input class="form-control" type="text" name="pages" placeholder="pages"><br>
+            <input class="form-control" type="text" name="isbn" placeholder="isbn"><br>
+            <button type="submit" name = "add_book" class="btn btn-outline-primary">submit</button>
+        </form>
+    </div>
+  </body>
+</html>
